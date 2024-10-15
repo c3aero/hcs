@@ -72,13 +72,13 @@ For a detailed overview, refer to the [Architecture Documentation](docs/architec
 
 1. **Clone the Repository**
 
-
+	
 	git clone https://github.com/yourusername/human-consciousness-simulation.git
 	cd human-consciousness-simulation
 
 2. **Create a Virtual Environment**
 
-	
+
 	python -m venv venv
 	source venv/bin/activate  # On Windows: venv\Scripts\activate
 
@@ -100,6 +100,7 @@ For a detailed overview, refer to the [Architecture Documentation](docs/architec
 - Edit `config/config.yaml` to set your desired parameters.
 
 5. **Download Sample Data**
+
 
 	python scripts/download_data.py
 
