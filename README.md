@@ -165,12 +165,16 @@ To check test coverage, you can use tools like `coverage.py`:
 
 1. **Install Coverage**
 
-	pip install coverage
+```
+pip install coverage
+```
 
 2. **Run Coverage**
 
-	coverage run -m unittest discover tests
-	coverage report -m
+```
+coverage run -m unittest discover tests
+coverage report -m
+```
 
 ---
 
