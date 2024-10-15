@@ -72,38 +72,39 @@ For a detailed overview, refer to the [Architecture Documentation](docs/architec
 
 1. **Clone the Repository**
 
-	
+	```
 	git clone https://github.com/yourusername/human-consciousness-simulation.git
 	cd human-consciousness-simulation
+	```
 
 2. **Create a Virtual Environment**
 
-
+	```
 	python -m venv venv
 	source venv/bin/activate  # On Windows: venv\Scripts\activate
-
+	```
 
 3. **Install Dependencies**
 	
-	
+	```
 	pip install -r requirements.txt
-
+	```
 
 4. **Configure the Simulation**
 
 - Copy the sample configuration file and modify as needed.
 
-
+	```
 	cp config/config.sample.yaml config/config.yaml
-
+	```
 
 - Edit `config/config.yaml` to set your desired parameters.
 
 5. **Download Sample Data**
 
-
+	```
 	python scripts/download_data.py
-
+	```
 
 ---
 
@@ -111,25 +112,25 @@ For a detailed overview, refer to the [Architecture Documentation](docs/architec
 
 ### Running the Simulation Locally
 
-
+	```
 	python src/main.py
-
+	```
 
 ### Running the Simulation in a Distributed Environment
 
 Ensure that you have multiple GPUs or nodes set up for distributed computing.
 
-
+	```
 	python scripts/run_distributed_simulation.py
-
+	```
 
 ### Interacting via Chat Interface
 
 Start the web server to interact with the simulation through a web-based chat interface.
 
-
+	```
 	python web/app.py
-
+	```
 
 Navigate to `http://localhost:8000/chat` in your web browser.
 
@@ -158,15 +159,15 @@ The project includes a comprehensive testing suite to ensure functionality and r
 
 ### Running Unit Tests
 
-
+	```
 	python -m unittest discover tests
-
+	```
 
 ### Running Specific Tests
 
-
+	```
 	python -m unittest tests.test_memory
-
+	```
 
 ### Test Coverage
 
@@ -174,16 +175,16 @@ To check test coverage, you can use tools like `coverage.py`:
 
 1. **Install Coverage**
 
-
+	```
 	pip install coverage
-
+	```
 
 2. **Run Coverage**
 
-
+	```
 	coverage run -m unittest discover tests
 	coverage report -m
-
+	```
 
 ---
 
@@ -197,21 +198,22 @@ Contributions are welcome! Please follow the guidelines below to contribute to t
 
 2. **Create a Feature Branch**
 
-
-	```bash
+	```
 	git checkout -b feature/YourFeature
+	```
 
 3. **Commit Your Changes**
 
-
 	```bash
 	git commit -m "Add Your Feature"
+	```
 
 4. **Push to Your Fork**
 
 
 	```bash
 	git push origin feature/YourFeature
+	```
 
 5. **Open a Pull Request**
 
