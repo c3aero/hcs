@@ -78,14 +78,14 @@ For a detailed overview, refer to the [Architecture Documentation](docs/architec
 
 2. **Create a Virtual Environment**
 
-
+	
 	python -m venv venv
 	source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 
 3. **Install Dependencies**
-
-
+	
+	
 	pip install -r requirements.txt
 
 
@@ -100,7 +100,6 @@ For a detailed overview, refer to the [Architecture Documentation](docs/architec
 - Edit `config/config.yaml` to set your desired parameters.
 
 5. **Download Sample Data**
-
 
 	python scripts/download_data.py
 
