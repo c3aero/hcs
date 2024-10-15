@@ -120,7 +120,6 @@ For a detailed overview, refer to the [Architecture Documentation](docs/architec
 Ensure that you have multiple GPUs or nodes set up for distributed computing.
 
 
-	```bash
 	python scripts/run_distributed_simulation.py
 
 
@@ -129,7 +128,6 @@ Ensure that you have multiple GPUs or nodes set up for distributed computing.
 Start the web server to interact with the simulation through a web-based chat interface.
 
 
-	```bash
 	python web/app.py
 
 
@@ -161,14 +159,12 @@ The project includes a comprehensive testing suite to ensure functionality and r
 ### Running Unit Tests
 
 
-	```bash
 	python -m unittest discover tests
 
 
 ### Running Specific Tests
 
 
-	```bash
 	python -m unittest tests.test_memory
 
 
@@ -179,14 +175,12 @@ To check test coverage, you can use tools like `coverage.py`:
 1. **Install Coverage**
 
 
-	```bash
 	pip install coverage
 
 
 2. **Run Coverage**
 
 
-	```bash
 	coverage run -m unittest discover tests
 	coverage report -m
 
