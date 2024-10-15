@@ -201,20 +201,17 @@ Contributions are welcome! Please follow the guidelines below to contribute to t
 	```bash
 	git checkout -b feature/YourFeature
 
-
 3. **Commit Your Changes**
 
 
 	```bash
 	git commit -m "Add Your Feature"
 
-
 4. **Push to Your Fork**
 
 
 	```bash
 	git push origin feature/YourFeature
-
 
 5. **Open a Pull Request**
 
