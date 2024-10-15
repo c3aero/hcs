@@ -1,7 +1,5 @@
 # Human Consciousness Simulation
 
-![Human Consciousness Simulation Banner](docs/images/banner.png)
-
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -74,39 +72,38 @@ For a detailed overview, refer to the [Architecture Documentation](docs/architec
 
 1. **Clone the Repository**
 
-<%
-git clone https://github.com/yourusername/human-consciousness-simulation.git
-cd human-consciousness-simulation
-%>
+
+	git clone https://github.com/yourusername/human-consciousness-simulation.git
+	cd human-consciousness-simulation
 
 2. **Create a Virtual Environment**
 
-<%
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-%>
+
+	python -m venv venv
+	source venv/bin/activate  # On Windows: venv\Scripts\activate
+
 
 3. **Install Dependencies**
 
-<%
-pip install -r requirements.txt
-%>
+
+	pip install -r requirements.txt
+
 
 4. **Configure the Simulation**
 
 - Copy the sample configuration file and modify as needed.
 
-<%
-cp config/config.sample.yaml config/config.yaml
-%>
+
+	cp config/config.sample.yaml config/config.yaml
+
 
 - Edit `config/config.yaml` to set your desired parameters.
 
 5. **Download Sample Data**
 
-<%
-python scripts/download_data.py
-%>
+
+	python scripts/download_data.py
+
 
 ---
 
@@ -114,25 +111,25 @@ python scripts/download_data.py
 
 ### Running the Simulation Locally
 
-<%
-python src/main.py
-%>
+
+	python src/main.py
+
 
 ### Running the Simulation in a Distributed Environment
 
 Ensure that you have multiple GPUs or nodes set up for distributed computing.
 
-<%
-python scripts/run_distributed_simulation.py
-%>
+
+	python scripts/run_distributed_simulation.py
+
 
 ### Interacting via Chat Interface
 
 Start the web server to interact with the simulation through a web-based chat interface.
 
-<%
-python web/app.py
-%>
+
+	python web/app.py
+
 
 Navigate to `http://localhost:8000/chat` in your web browser.
 
@@ -161,15 +158,15 @@ The project includes a comprehensive testing suite to ensure functionality and r
 
 ### Running Unit Tests
 
-<%
-python -m unittest discover tests
-%>
+
+	python -m unittest discover tests
+
 
 ### Running Specific Tests
 
-<%
-python -m unittest tests.test_memory
-%>
+
+	python -m unittest tests.test_memory
+
 
 ### Test Coverage
 
@@ -177,16 +174,16 @@ To check test coverage, you can use tools like `coverage.py`:
 
 1. **Install Coverage**
 
-<%
-pip install coverage
-%>
+
+	pip install coverage
+
 
 2. **Run Coverage**
 
-<%
-coverage run -m unittest discover tests
-coverage report -m
-%>
+
+	coverage run -m unittest discover tests
+	coverage report -m
+
 
 ---
 
@@ -200,21 +197,21 @@ Contributions are welcome! Please follow the guidelines below to contribute to t
 
 2. **Create a Feature Branch**
 
-<%
-git checkout -b feature/YourFeature
-%>
+
+	git checkout -b feature/YourFeature
+
 
 3. **Commit Your Changes**
 
-<%
-git commit -m "Add Your Feature"
-%>
+
+	git commit -m "Add Your Feature"
+
 
 4. **Push to Your Fork**
 
-<%
-git push origin feature/YourFeature
-%>
+
+	git push origin feature/YourFeature
+
 
 5. **Open a Pull Request**
 
@@ -241,9 +238,9 @@ This project is licensed under the [MIT License](LICENSE).
 
 For any inquiries or support, please contact:
 
-- **Project Lead**: Jane Doe
-- **Email**: jane.doe@example.com
-- **GitHub**: [@janedoe](https://github.com/janedoe)
+- **Project Lead**: John Speranza
+- **Email**: john@c3aero.com
+- **GitHub**: [@c3aero](https://github.com/c3aero)
 
 ---
 
