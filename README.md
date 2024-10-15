@@ -188,15 +188,21 @@ Contributions are welcome! Please follow the guidelines below to contribute to t
 
 2. **Create a Feature Branch**
 
-	git checkout -b feature/YourFeature
+```
+git checkout -b feature/YourFeature
+```
 
 3. **Commit Your Changes**
 
-	git commit -m "Add Your Feature"
+```
+git commit -m "Add Your Feature"
+```
 
 4. **Push to Your Fork**
 
-	git push origin feature/YourFeature
+```
+git push origin feature/YourFeature
+```
 	
 
 5. **Open a Pull Request**
